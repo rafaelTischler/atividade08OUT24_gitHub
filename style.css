@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  overflow: hidden; 
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .esquerda, .direita {
+    width: 100%;
+    height: auto;
+    padding: 10% 5%;
+  }
+
+  .text1 {
+    font-size: 40px;
+  }
+
+  .Minha-imagem {
+    width: 120px;
+  }
+
+  .hrefs {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) {
+  .esquerda {
+    padding: 5% 0;
+    background-color: rgb(5, 62, 98);
+    width: 30%;
+    height: 100vh;
+  }
+
+  .direita {
+    padding: 5% 0;
+    background-color: white;
+    width: 70%;
+    height: auto;
+  }
+
+
+  .text1 {
+    font-size: 60px;
+  }
+
+  .Minha-imagem {
+    width: 150px;
+  }
+
+  .hrefs {
+    font-size: 20px;
+  }
+}
+
+strong {
+  color: rgb(12, 11, 11);
+}
+
+a {
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+.Minha-imagem {
+  text-align: center;
+  border-radius: 50%;
+  border: solid 5px rgb(0, 0, 0);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 360px;
+  width: 100%;
+}
+
+input {
+  margin-top: 16px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 80px;
+  border-radius: 5px;
+}
