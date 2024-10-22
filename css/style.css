@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+  }
+  
+  main {
+    text-align: center;
+    display: flex;
+  }
+  
+  strong {
+    color: rgb(12, 11, 11);
+  }
+  
+  a {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .text1 {
+    font-size: 60px;
+  }
+  
+  .Minha-imagem {
+    text-align: center;
+    width: 50%;
+    border-radius: 250%;
+    border: solid 5px rgb(0, 0, 0);
+  }
+  
+  .esquerda {
+    padding: 10% 0%;
+    background-color: rgb(130, 25, 25);
+    width: 30%;
+    height: 100vh;
+  }
+  
+  .direita {
+    padding: 10% 0%;
+    background-color: rgb(225, 225, 225);
+    width: 70%;
+    height: 100vh;
+  }
+  
+  .hrefs {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-bottom: 40px;
+  }
+  
+  #button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
